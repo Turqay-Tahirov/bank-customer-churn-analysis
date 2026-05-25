@@ -1,8 +1,33 @@
+# 📊 Bank Müştərilərinin Tərk Etməsi (Churn) Analizi
 # 📊 Bank Customer Churn & Risk Analysis
 
 An End-to-End Data Analytics Project using SQL and Python.
 SQL və Python alətlərindən istifadə edilməklə hazırlanmış ucdan-uca data analitikası layihəsi.
 
+## 🇬🇧 Project Overview
+This project identifies why bank customers are leaving (churning) using a dataset of 10,000 customers. The analysis focuses on demographic, financial, and product-related risks using SQL and Python to provide actionable insights for customer retention strategies.
+
+---
+
+## 🛠️ İstifadə Olunan Alətlər
+* **SQL:** Məlumatların qruplaşdırılması və əsas metriklərin hesablanması (`customer_churn_queries.sql`).
+* **Python (Pandas, Seaborn, Matplotlib):** Data manipulyasiyası, yaş qruplaşdırılması və vizuallaşdırma (`churn_analysis.ipynb`).
+
+---
+
+## 💻 Əsas Kodlar, İzahlar və Qrafiklər
+
+### 1. Müştərinin Sahib Olduğu Məhsul Sayı (SQL)
+Müştərinin bankdan aldığı məhsul sayının onun getmə riskinə təsirini ölçən SQL sorğusu:
+
+SELECT 
+    NumOfProducts AS Mehsul_Sayi,
+    COUNT(*) AS Toplam_Musteri,
+    SUM(Exited) AS Terk_Eden_Musteri,
+    CAST((SUM(Exited) * 100.0 / COUNT(*)) AS DECIMAL(10,2)) AS Churn_Faizi
+FROM BankCustomers
+GROUP BY NumOfProducts
+ORDER BY Churn_Faizi DESC;
 ---
 
 ## 🌍 Language Selection / Dil Seçimi
@@ -64,4 +89,4 @@ narazılıq yaranır və müştərilərin demək olar ki, hamısı (82% - 100%-i
 
 Yaşlı Nəslin İtirilməsi: 46-60 yaş arası (Yaşlılar) müştəri qrupunda tərk etmə faizi çox yüksəkdir — 50%-dən çox.
 Hər iki yaşlı müştəridən biri bankdan gedir. Bu sahədə yaşlılar üçün xüsusi xidmət və ya proqramlara ehtiyac var.
-![Age Analysis](age_groups.png)
+(age_groups.png)
