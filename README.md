@@ -50,7 +50,7 @@ ORDER BY Churn_Faizi DESC;
 * **Python:** Full exploratory data analysis (EDA) code is available in `churn_analysis.ipynb`
 
 ---
-![Age Group](correlation.png)
+![Correlation](correlation.png)
 
 Qrafikin Mənası (Rənglər): Bu qrafik faktorların bir-biri ilə riyazi əlaqəsini göstərir.
 Qırmızı rənglər müsbət (birlikdə artan), göy rənglər isə mənfi (biri artanda digəri azalan) əlaqəni bildirir.
