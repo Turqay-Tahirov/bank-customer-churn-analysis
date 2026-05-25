@@ -27,7 +27,7 @@ Having **2 products is the Sweet Spot (7.60% Churn)**. Forcing 3 or 4 products t
 
 #### 2. Age Group Vulnerability
 Customers aged **46-60 (Seniors) have a churn rate over 50%**. Every second senior customer leaves the bank.
-![Age Analysis](age_groups.png)
+
 
 #### 3. Correlation Matrix & Credit Card Neutrality
 `Age` has the strongest positive correlation (**+0.29**) with Churn. Conversely, `credit_card` ownership has a correlation of **-0.01** (virtually zero), proving that credit cards do not influence customer retention.
@@ -64,3 +64,4 @@ narazılıq yaranır və müştərilərin demək olar ki, hamısı (82% - 100%-i
 
 Yaşlı Nəslin İtirilməsi: 46-60 yaş arası (Yaşlılar) müştəri qrupunda tərk etmə faizi çox yüksəkdir — 50%-dən çox.
 Hər iki yaşlı müştəridən biri bankdan gedir. Bu sahədə yaşlılar üçün xüsusi xidmət və ya proqramlara ehtiyac var.
+![Age Analysis](age_groups.png)
