@@ -54,19 +54,22 @@ ORDER BY Churn_Faizi DESC;
 
 Qrafikin Mənası (Rənglər): Bu qrafik faktorların bir-biri ilə riyazi əlaqəsini göstərir.
 Qırmızı rənglər müsbət (birlikdə artan), göy rənglər isə mənfi (biri artanda digəri azalan) əlaqəni bildirir.
-$0.00$ isə tamamilə təsirsiz deməkdir.Ən Böyük Təhlükə — Yaş (Age ➡️ $+0.29$): Müştəri itkisi (Exited) ilə ən güclü müsbət əlaqə yaşdadır.
+$0.00$ isə tamamilə təsirsiz deməkdir.
+
+Ən Böyük Təhlükə — Yaş (Age ➡️ $+0.29$): Müştəri itkisi (Exited) ilə ən güclü müsbət əlaqə yaşdadır.
 Yəni müştərinin yaşı artdıqca, bankı tərk etmə riski də düz mütənasib olaraq artır.
+
 Ən Yaxşı Həll — Aktivlik (IsActiveMember ➡️ $-0.16$): İtki ilə ən güclü mənfi (tərs) əlaqə buradadır.
 Yəni, müştəri sistemdə neçə çox aktiv olarsa, bankdan getmə riski bir o qədər azalır.
+
 Təsirsiz Faktor — Kredit Kartı (HasCrCard ➡️ $-0.01$): Rəqəm sıfıra bərabərdir.
 Deməli, müştəriyə kredit kartı vermək onun bankda qalıb-qalmamasına heç bir təsir etmir.
 
 
 
-
-
 ### 📈 Key Insights & Business Findings
 ![Age Group](age_groups.png)
+
 Qrafikin Biznes İzahı:
 Bu qrafik bankın demoqrafik zəifliyini ortaya qoyur. 46-60 yaş arası (Yaşlılar) qrupunda itki faizi 50%-dən çoxdur.
 Yəni bankdakı hər iki yaşlı müştəridən biri hesabı bağlayıb gedir.
@@ -75,29 +78,12 @@ Yəni bankdakı hər iki yaşlı müştəridən biri hesabı bağlayıb gedir.
 ---
 
 ![Age Group](credit_card.png)
+
 Qrafikin Biznes İzahı:
 Bu istilik xəritəsi (Heatmap) bizə hansı faktorun müştərinin getməsinə birbaşa təsir etdiyini göstərir.
 Müştəri itkisi (Exited) ilə ən güclü müsbət əlaqə Yaş (+0.29) amilindədir.
 Ən güclü mənfi əlaqə isə Aktiv Üzvlük (-0.16) göstəricisindədir. 
 Yəni müştərini sistemdə aktiv saxlamaq onun qaçma riskini birbaşa azaldır.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -117,4 +103,3 @@ narazılıq yaranır və müştərilərin demək olar ki, hamısı (82% - 100%-i
 #### 4.
 Yaşlı Nəslin İtirilməsi: 46-60 yaş arası (Yaşlılar) müştəri qrupunda tərk etmə faizi çox yüksəkdir — 50%-dən çox.
 Hər iki yaşlı müştəridən biri bankdan gedir. Bu sahədə yaşlılar üçün xüsusi xidmət və ya proqramlara ehtiyac var.
-![Age Group](age_groups.png)
