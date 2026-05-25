@@ -89,4 +89,4 @@ narazılıq yaranır və müştərilərin demək olar ki, hamısı (82% - 100%-i
 
 Yaşlı Nəslin İtirilməsi: 46-60 yaş arası (Yaşlılar) müştəri qrupunda tərk etmə faizi çox yüksəkdir — 50%-dən çox.
 Hər iki yaşlı müştəridən biri bankdan gedir. Bu sahədə yaşlılar üçün xüsusi xidmət və ya proqramlara ehtiyac var.
-(age_groups.png)
+![Age Group](age_groups.png)
