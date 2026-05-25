@@ -52,16 +52,30 @@ ORDER BY Churn_Faizi DESC;
 ---
 
 ### 📈 Key Insights & Business Findings
-
+![Age Group](age_groups.png)
 Qrafikin Biznes İzahı:
 Bu qrafik bankın demoqrafik zəifliyini ortaya qoyur. 46-60 yaş arası (Yaşlılar) qrupunda itki faizi 50%-dən çoxdur.
 Yəni bankdakı hər iki yaşlı müştəridən biri hesabı bağlayıb gedir.
 Ən sadiq qrup isə gənclərdir (18-30 yaş). Bank yaşlı nəsil üçün rəqəmsal əlçatanlığı və depozit şərtlərini yaxşılaşdırmalıdır.
-![Age Group](age_groups.png)
+
+# Yaşların qruplara bölünməsi (Age Binning)
+yas_araliqlari = [18, 30, 45, 60, 100]
+qrup_adlari = ['18-30 (Gənclər)', '31-45 (Orta Yaş)', '46-60 (Yaşlılar)', '60+ (Təqaüdçülər)']
+df['Age_Group'] = pd.cut(df['Age'], bins=yas_araliqlari, labels=qrup_adlari)
+
+# Hər yaş qrupunun getmə (Churn) faizi
+yas_analizi = df.groupby('Age_Group')['Exited'].mean() * 100
 ---
 
 
 
+# Rəqəmsal sütunların seçilməsi və korrelyasiyası
+numeric_df = df[['CreditScore', 'Age', 'Tenure', 'Balance', 'NumOfProducts', 'HasCrCard', 'IsActiveMember', 'EstimatedSalary', 'Exited']]
+corr_matrix = numeric_df.corr()
+
+# Heatmap qrafikinin çəkilməsi
+sns.heatmap(corr_matrix, annot=True, cmap="coolwarm", fmt=".2f")
+![Age Group](credit_card.png)
 Qrafikin Biznes İzahı:
 Bu istilik xəritəsi (Heatmap) bizə hansı faktorun müştərinin getməsinə birbaşa təsir etdiyini göstərir.
 Müştəri itkisi (Exited) ilə ən güclü müsbət əlaqə Yaş (+0.29) amilindədir.
