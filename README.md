@@ -23,7 +23,7 @@ SQL və Python alətlərindən istifadə edilməklə hazırlanmış ucdan-uca da
 
 #### 1. Product Portfolio Saturation
 Having **2 products is the Sweet Spot (7.60% Churn)**. Forcing 3 or 4 products triggers an aggressive customer flight (**82% - 100% Churn**).
-![Product Analysis](tt.png)
+![Product Analysis](products.png)
 
 #### 2. Age Group Vulnerability
 Customers aged **46-60 (Seniors) have a churn rate over 50%**. Every second senior customer leaves the bank.
