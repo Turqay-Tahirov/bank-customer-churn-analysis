@@ -26,14 +26,6 @@ This project identifies why bank customers are leaving (churning) using a datase
 ### 1. Müştərinin Sahib Olduğu Məhsul Sayı (SQL)
 Müştərinin bankdan aldığı məhsul sayının onun getmə riskinə təsirini ölçən SQL sorğusu:
 
-SELECT 
-    NumOfProducts AS Mehsul_Sayi,
-    COUNT(*) AS Toplam_Musteri,
-    SUM(Exited) AS Terk_Eden_Musteri,
-    CAST((SUM(Exited) * 100.0 / COUNT(*)) AS DECIMAL(10,2)) AS Churn_Faizi
-FROM BankCustomers
-GROUP BY NumOfProducts
-ORDER BY Churn_Faizi DESC;
 ---
 
 ## 🌍 Language Selection / Dil Seçimi
