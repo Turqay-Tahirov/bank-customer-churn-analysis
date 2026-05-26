@@ -48,6 +48,32 @@ Müştərinin bankdan aldığı məhsul sayının onun getmə riskinə təsirini
 * **SQL:** Comprehensive queries are stored in `customer_churn_queries.sql`
 * **Python:** Full exploratory data analysis (EDA) code is available in `churn_analysis.ipynb`
 ---
+
+
+## 📊 Excel Pivot Table ilə Multi-Dimensiyalı Biznes Analizi
+
+Bu mərhələdə SQL və Python ilə yanaşı, layihənin biznes analitika tərəfini daha da dərinləşdirmək üçün Excel proqramında interaktiv Pivot cədvəllər və şərti formatlaşdırma (Conditional Formatting) modelləri qurdum. Məqsədim müştəri davranışındakı çarpaz asılılıqları (coğrafiya, gender, şikayətlər və s.) eyni anda analiz etməkdir.
+
+### 📌 Pivot Cədvəl Vasitəsilə Tapılan Əsas İnsaytlar:
+
+1. **🚨 Kritik Şikayət Riski (Ən Böyük Təhlükə):**
+   Bankda şikayət qeydə alınan 2,044 müştərinin **99.80%-i (2,034 nəfər)** bankı tərk edib! Bu rəqəm sübut edir ki, şikayət mexanizmi və müştəri xidmətləri böhran vəziyyətindədir. Şikayət edən müştəri faktiki olaraq dərhal sistemi tərk edir.
+
+2. **🌍 Coğrafi İtki Payı:**
+   Müştəri sayına görə Fransa öndə olsa da, bankı tərk edənlərin sayında **Almaniya (39.94%)** və **Fransa (39.79%)** demək olar ki, eyni dərəcədə yüksək itki payına malikdir. İspaniya isə 20.26% ilə ən stabil regiondur.
+
+3. **👩‍💼 Gender Amili:**
+   Qadın müştərilərin bankı tərk etmə nisbəti (**55.89%**), kişi müştərilərə nisbətən (**44.11%**) nəzərəçarpacaq dərəcədə yüksəkdir. 
+
+4. **💳 Kredit Kartı Yanılsaması:**
+   Kredit kartı olan müştərilərin ümumi tərk edənlər arasındakı payı **69.92%**-dir. Bu, bank daxilində kredit kartı məhsulunun müştərini sistemə bağlamaq üçün yetərli proqramlara malik olmadığını göstərir.
+
+5. **⭐ Müştəri Məmnuniyyəti (Satisfaction Score):**
+   Məmnuniyyət balı 1 və 2 olan müştərilərin getmə riski daha yüksəkdir. Maraqlıdır ki, balı 3-5 arası olanlarda da ciddi azalma yoxdur, bu da müştərilərin xidmətdən asılı olmayaraq fərqli maliyyə səbəblərindən getdiyinə işarə edir.
+
+
+
+---
 Bank müştərilərinin davranışlarını analiz edərək müştəri itkisinə (churn) təsir edən əsas faktorları müəyyən etmişəm.
 Analiz nəticəsində 2 məhsulu olan müştərilərin daha sadiq, 3-4 məhsulu olanların isə yüksək riskli olduğunu aşkarlamışam.
 Kredit kartı istifadəsinin müştəri sadiqliyinə ciddi təsir etmədiyini müəyyən edərək lazımsız kampaniya xərcləri ilə bağlı nəticələr çıxarmışam.
