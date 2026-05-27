@@ -20,6 +20,14 @@ Python vizuallaşdırması və nəticə olaraq Power BI-da interaktiv hesabatın
 -Power BI: Bütün insaytları vizuallaşdırmaq üçün qabaqcıl UI/UX dizayn prinsiplərinə uyğun, dinamik filtrlərə (slicers) və xüsusi DAX ölçülərinə
  (measures) sahib interaktiv hesabat paneli (dashboard) yaradılmışdır.
 
+## Layihə Faylları
+
+Layihədə istifadə olunan əsas fayllara aşağıdakı linklər vasitəsilə baxa bilərsiniz:
+
+- [CSV Dataset](BankCustomers.csv)
+- [SQL Sorğuları](customer_churn_queries.sql)
+- [Python Analiz Faylı](BankCustomers_ChurnAnalysis.py)
+- [Power BI Dashboard](BankCustomers_Churn_Dashboard.pbix)
 ---
 
 ## 🌍 Language Selection / Dil Seçimi
@@ -51,16 +59,15 @@ Python vizuallaşdırması və nəticə olaraq Power BI-da interaktiv hesabatın
 1️⃣ Excel Mərhələsi: İlkin Baxış və Data Təmizlənməsi
 Məlumat bazasından gələn xam data ilkin olaraq Excel-ə köçürülmüş, duplicate (təkrar) və null (boş) dəyərlər təmizlənmişdir. Pivot Table vasitəsilə müştərilərin kredit kartı statusu və məhsul sayına görə ilkin paylanma dinamikası analiz edilmişdir.
 
-📂 Excel analiz faylı: bankcustomer.xlsx
+📂 [CSV Dataset](BankCustomers.csv)
 
 2️⃣ SQL Mərhələsi: Məlumat Bazası Sorğuları (Data Extracting & Aggregation)
 Məlumatların profilini çıxarmaq, müştəriləri aktivlik, coğrafiya və şikayət statusuna görə seqmentasiya etmək üçün GROUP BY və CASE WHEN funksiyalarından istifadə edilməklə optimallaşdırılmış analiz sorğuları yazılmışdır.
 
-📂 Yazılmış bütün SQL sorğuların faylı: churn_queries.sql
+📂 Yazılmış bütün SQL sorğuların faylı: - [SQL Sorğuları](customer_churn_queries.sql)
 
 3️⃣ Python Mərhələsi: Eksperimental Data Analizi (EDA)
 Python (Pandas) vasitəsilə datanın statistik göstəriciləri çıxarılmış, Matplotlib və Seaborn kitabxanaları ilə faktorlar arası asılılıqları göstərən korrelyasiya matrisi (heatmap) və yaş qruplarının paylanma qrafikləri qurulmuşdur.
-
 
 📂Bu layihədə istifadə olunan Python analiz faylına aşağıdakı link vasitəsilə baxa bilərsiniz:
 [Python Analiz Faylı](BankCustomers_ChurnAnalysis.py)
@@ -68,7 +75,7 @@ Python (Pandas) vasitəsilə datanın statistik göstəriciləri çıxarılmış
 4️⃣ Power BI Mərhələsi: İnteraktiv Dashboard-un Qurulması
 Bütün analitik tapıntıların yekun nəticəsi olaraq, bank rəhbərliyinin kritik qərarları sürətli qəbul etməsi üçün hazırlanmış, xüsusi DAX metriklərinə və qabaqcıl UI/UX dizaynına sahib hesabat paneli:
 
-📂 İnteraktiv Power BI hesabat faylı: bank_churn_dashboard.pbix
+📂 İnteraktiv Power BI hesabat faylı:- [Power BI Dashboard](BankCustomers_Churn_Dashboard.pbix)
 
 📊 **Yekun İnteraktiv Dashboard Görünüşü (Power BI):**
 Bank rəhbərliyinin kritik qərarları sürətli qəbul etməsi üçün hazırlanmış,
