@@ -9,11 +9,17 @@ Python vizuallaşdırması və nəticə olaraq Power BI-da interaktiv hesabatın
 ---
 
 📌 Layihə Çərçivəsində Görülən İşlər
-10,000 bank müştərisinə aid məlumatları analiz üçün hazırlamışam.
-SQL (GROUP BY, CASE WHEN) vasitəsilə müştəri seqmentasiyası və churn analizləri aparmışam.
-Python (Pandas) ilə yaş qruplaşdırması və əsas statistik analizlər həyata keçirmişəm.
-Matplotlib və Seaborn vasitəsilə qrafiklər və heatmap-lər hazırlamışam.
-Analiz nəticələrinə əsasən müştəri itkisini azaltmaq üçün biznes yönümlü insaytlar təqdim etmişəm.
+-10,000 bank müştərisinə aid məlumatları analiz üçün hazırlamışam.
+-MS Excel: Xam dataya ilkin baxış keçirilmiş, dublikat və boş dəyərlər təmizlənmişdir. Pivot Table vasitəsilə müştərilərin məhsul sayına və kredit kartı
+ statusuna görə ilkin paylanma strukturu analiz olunmuşdur.
+-SQL (GROUP BY, CASE WHEN) vasitəsilə müştəri seqmentasiyası və churn analizləri aparmışam.
+-Python: Pandas kitabxanası ilə datanın statistik göstəriciləri çıxarılmış,
+  Matplotlib və Seaborn vasitəsilə faktorlar arası asılılıqları göstərən korrelyasiya matrisi (heatmap) və yaş qruplarının paylanma qrafikləri
+  qurulmuşdur.
+  Analiz nəticələrinə əsasən müştəri itkisini azaltmaq üçün biznes yönümlü insaytlar təqdim etmişəm.
+-Power BI: Bütün insaytları vizuallaşdırmaq üçün qabaqcıl UI/UX dizayn prinsiplərinə uyğun, dinamik filtrlərə (slicers) və xüsusi DAX ölçülərinə
+ (measures) sahib interaktiv hesabat paneli (dashboard) yaradılmışdır.
+
 ---
 
 ## 🌍 Language Selection / Dil Seçimi
@@ -22,7 +28,7 @@ Analiz nəticələrinə əsasən müştəri itkisini azaltmaq üçün biznes yö
 
 ---
 
-## Azerbaycan Dilinde Versiya
+## Azerbaycan Dilində Versiya
 * ## 🛠️ İstifadə Olunan Alətlər və Texnologiyalar (Tech Stack)
 * **Məlumatların Hazırlanması:** MS Excel (Pivot Tables & İlkin Filtrasiya)
 * **Məlumat Bazası Sorğuları:** SQL (Data Profiling, Aqreqasiya və Seqmentasiya)
@@ -50,6 +56,13 @@ Python (Pandas) vasitəsilə datanın statistik göstəriciləri çıxarılmış
 
 ### 3️⃣ Power BI Mərhələsi: İnteraktiv Dashboard-un Qurulması
 Bütün analizlərin yekun nəticəsi olaraq, bank rəhbərliyinin rahat qərar verə bilmesi üçün tünd korporativ mövzuda interaktiv hesabat paneli (dashboard) yığılmışdır.
+
+
+📊 **Yekun İnteraktiv Dashboard Görünüşü (Power BI):**
+Bank rəhbərliyinin kritik qərarları sürətli qəbul etməsi üçün hazırlanmış,
+xüsusi DAX metriklərinə və qabaqcıl UI/UX dizaynına sahib hesabat paneli:
+
+![Yekun Power BI Dashboard](power_bi-dashboard.png)
 
 ## 📊 Excel Pivot Table ilə Biznes Analizi
 
