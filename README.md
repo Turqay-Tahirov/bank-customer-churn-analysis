@@ -63,7 +63,7 @@ Python (Pandas) vasitəsilə datanın statistik göstəriciləri çıxarılmış
 
 
 📂Bu layihədə istifadə olunan Python analiz faylına aşağıdakı link vasitəsilə baxa bilərsiniz:
-[Python Analiz Faylı](python/churn_analysis.py)
+[Python Analiz Faylı](BankCustomers_ChurnAnalysis.py)
 
 4️⃣ Power BI Mərhələsi: İnteraktiv Dashboard-un Qurulması
 Bütün analitik tapıntıların yekun nəticəsi olaraq, bank rəhbərliyinin kritik qərarları sürətli qəbul etməsi üçün hazırlanmış, xüsusi DAX metriklərinə və qabaqcıl UI/UX dizaynına sahib hesabat paneli:
