@@ -27,7 +27,7 @@ Layihədə istifadə olunan əsas fayllara aşağıdakı linklər vasitəsilə b
 - [CSV Dataset](BankCustomers.csv)
 - [SQL Sorğuları](customer_churn_queries.sql)
 - [Python Analiz Faylı](BankCustomers_ChurnAnalysis.py)
-- [Power BI Dashboard](BankCustomers_Churn_Dashboard.pbix)
+- [Power BI Faylı](BankCustomers_Churn_Dashboard.pbix)
 ---
 
 ## 🌍 Language Selection / Dil Seçimi
