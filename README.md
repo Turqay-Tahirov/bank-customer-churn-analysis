@@ -1,31 +1,19 @@
 # 📊 Bank Müştərilərinin Tərk Etməsi (Churn) Analizi || Bank Customer Churn & Risk Analysis
+
 ---
+
+## 📌 Layihə Haqqında (Project Overview)
+Bu layihə, bir bankın 10,000-dən çox müştəri məlumatını analiz edərək müştəri itkisinin (churn) və məmnuniyyət səviyyəsinin əsas səbəblərini ortaya çıxarmaq üçün hazırlanmışdır. Layihə məlumatların ilkin təmizlənməsindən başlayaraq, SQL sorğuları,
+Python vizuallaşdırması və nəticə olaraq Power BI-da interaktiv hesabatın qurulmasına qədər bütün analitik mərhələləri əhatə edir.
+
+---
+
 📌 Layihə Çərçivəsində Görülən İşlər
 10,000 bank müştərisinə aid məlumatları analiz üçün hazırlamışam.
 SQL (GROUP BY, CASE WHEN) vasitəsilə müştəri seqmentasiyası və churn analizləri aparmışam.
 Python (Pandas) ilə yaş qruplaşdırması və əsas statistik analizlər həyata keçirmişəm.
 Matplotlib və Seaborn vasitəsilə qrafiklər və heatmap-lər hazırlamışam.
 Analiz nəticələrinə əsasən müştəri itkisini azaltmaq üçün biznes yönümlü insaytlar təqdim etmişəm.
----
-An End-to-End Data Analytics Project using SQL and Python.
-SQL və Python alətlərindən istifadə edilməklə hazırlanmış ucdan-uca data analitikası layihəsi.
-
-## 🇬🇧 Project Overview
-This project identifies why bank customers are leaving (churning) using a dataset of 10,000 customers. The analysis focuses on demographic, financial, and product-related risks using SQL and Python to provide actionable insights for customer retention strategies.
-
----
-
-## 🛠️ İstifadə Olunan Alətlər
-* **SQL:** Məlumatların qruplaşdırılması və əsas metriklərin hesablanması (`customer_churn_queries.sql`).
-* **Python (Pandas, Seaborn, Matplotlib):** Data manipulyasiyası, yaş qruplaşdırılması və vizuallaşdırma (`churn_analysis.ipynb`).
-
----
-
-## 💻 Əsas Kodlar, İzahlar və Qrafiklər
-
-### 1. Müştərinin Sahib Olduğu Məhsul Sayı (SQL)
-Müştərinin bankdan aldığı məhsul sayının onun getmə riskinə təsirini ölçən SQL sorğusu:
-
 ---
 
 ## 🌍 Language Selection / Dil Seçimi
@@ -35,22 +23,35 @@ Müştərinin bankdan aldığı məhsul sayının onun getmə riskinə təsirini
 ---
 
 ## Azerbaycan Dilinde Versiya
-
-### 🛠️ İstifadə Olunan Alətlər
-* **SQL:** Bütün sorğular `customer_churn_queries.sql` faylı daxilində yerləşir.
-* **Python:** Tam analitik kodlar `churn_analysis.ipynb` faylı daxilində yerləşir.
+* ## 🛠️ İstifadə Olunan Alətlər və Texnologiyalar (Tech Stack)
+* **Məlumatların Hazırlanması:** MS Excel (Pivot Tables & İlkin Filtrasiya)
+* **Məlumat Bazası Sorğuları:** SQL (Data Profiling, Aqreqasiya və Seqmentasiya)
+* **Eksperimental Analiz (EDA):** Python (Pandas, Matplotlib / Seaborn ilə vizuallaşdırma)
+* **Biznes İntellekti (BI):** Power BI (Advanced UI/UX, Custom DAX Measures, Slicers)
 
 ---
 
 ## English Version
 
-### 🛠️ Tech Stack & Tools Used
-* **SQL:** Comprehensive queries are stored in `customer_churn_queries.sql`
-* **Python:** Full exploratory data analysis (EDA) code is available in `churn_analysis.ipynb`
----
+## 🛠️ Tech Stack & Skills Developed
+* **Data Preparation:** MS Excel (Pivot Tables, Data Cleaning & Initial Filtering)
+* **Database Querying:** SQL (Data Profiling, Aggregations & Customer Segmentation)
+* **Exploratory Data Analysis (EDA):** Python (Pandas for data manipulation, Matplotlib & Seaborn for statistical visualization)
+* **Business Intelligence (BI):** Power BI (Advanced UI/UX design, Custom DAX Measures & Dynamic Slicers)
 
+* 
+## 🔄 Layihənin Mərhələləri (Project Workflow)
 
-## 📊 Excel Pivot Table ilə Multi-Dimensiyalı Biznes Analizi
+### 1️⃣ Excel Mərhələsi: İlkin Baxış və Pivot Analiz
+Məlumat bazasından gələn xam data ilkin olaraq Excel-ə köçürülmüş, duplicate (təkrar) və null (boş) dəyərlər yoxlanılmışdır. Pivot Table vasitəsilə müştərilərin kredit kartı statusu və məhsul saylarına görə ümumi paylanma dinamikası yoxlanılmışdır.
+
+### 2️⃣ Python Mərhələsi: Eksperimental Data Analizi (EDA)
+Python (Pandas) vasitəsilə datanın statistik göstəriciləri çıxarılmış və `seaborn`/`matplotlib` kitabxanaları istifadə edilərək fərqli trendlər vizual olaraq yoxlanılmışdır. Xüsusilə yaş qrupları və balans aralıqları Python qrafiklərində analiz edilmişdir.
+
+### 3️⃣ Power BI Mərhələsi: İnteraktiv Dashboard-un Qurulması
+Bütün analizlərin yekun nəticəsi olaraq, bank rəhbərliyinin rahat qərar verə bilmesi üçün tünd korporativ mövzuda interaktiv hesabat paneli (dashboard) yığılmışdır.
+
+## 📊 Excel Pivot Table ilə Biznes Analizi
 
 Bu mərhələdə SQL və Python ilə yanaşı, layihənin biznes analitika tərəfini daha da dərinləşdirmək üçün Excel proqramında interaktiv Pivot cədvəllər və şərti formatlaşdırma (Conditional Formatting) modelləri qurdum. Məqsədim müştəri davranışındakı çarpaz asılılıqları (coğrafiya, gender, şikayətlər və s.) eyni anda analiz etməkdir.
 
