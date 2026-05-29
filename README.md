@@ -80,7 +80,7 @@ Bütün analitik tapıntıların yekun nəticəsi olaraq, bank rəhbərliyinin k
 Bank rəhbərliyinin kritik qərarları sürətli qəbul etməsi üçün hazırlanmış,
 xüsusi DAX metriklərinə və qabaqcıl UI/UX dizaynına sahib hesabat paneli:
 
-![Yekun Power BI Dashboard](images/power_bi-dashboard.png)
+![Yekun Power BI Dashboard](/images/power_bi-dashboard.png)
 
 ## 📊 Excel Pivot Table ilə Biznes Analizi
 
