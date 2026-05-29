@@ -127,7 +127,7 @@ Təsirsiz Faktor — Kredit Kartı (HasCrCard ➡️ $-0.01$): Rəqəm sıfıra 
 Deməli, müştəriyə kredit kartı vermək onun bankda qalıb-qalmamasına heç bir təsir etmir.
 
 ### 📈 Key Insights & Business Findings
-![Age Group](images/age_groups.png)
+![Age Groups](images/age_groups.png)
 
 Qrafikin Biznes İzahı:
 Bu qrafik bankın demoqrafik zəifliyini ortaya qoyur. 46-60 yaş arası (Yaşlılar) qrupunda itki faizi 50%-dən çoxdur.
